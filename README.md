@@ -33,7 +33,7 @@ Highlight the most important features of your project:
 
 ## 📽️ Demo & Deliverables
 
-- **Demo Video Link:** [Paste YouTube or Loom link here]  
+- **Demo Video Link:** (https://youtu.be/v1mehQEO7-I)
 
 ---
 
