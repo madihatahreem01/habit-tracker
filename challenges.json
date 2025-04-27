@@ -1,0 +1,36 @@
+[
+  {
+    "name": "drink water",
+    "days": 10,
+    "members": [
+      {
+        "username": "madiha",
+        "progressDates": []
+      }
+    ]
+  },
+  {
+    "name": "mmmm",
+    "days": 5,
+    "members": [
+      {
+        "username": "mad",
+        "progressDates": []
+      },
+      {
+        "username": "madiha",
+        "progressDates": []
+      }
+    ]
+  },
+  {
+    "name": "read",
+    "days": 10,
+    "members": [
+      {
+        "username": "mad",
+        "progressDates": []
+      }
+    ]
+  }
+]

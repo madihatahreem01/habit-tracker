@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Habit Tracker App</title>
+  <link href="style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- FullCalendar -->
+  <link href="https://cdn.jsdelivr.net/npm/fullcalendar@5.11.0/main.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/fullcalendar@5.11.0/main.min.js"></script>
+</head>
+<body>
+  <div class="navbar">
+    <h2>Habit Tracker</h2>
+    <button onclick="logout()">Logout</button>
+  </div>
+  <div class="main">
+    <div id="calendar"></div>
+    <div class="panels">
+      <h3>Selected: <span id="selected-date"></span></h3>
+
+      
+
+      <!-- HABITS -->
+      <section>
+        <h4>Habits</h4>
+        <input id="habit-input" placeholder="New habit">
+        <button onclick="addHabit()">Add</button>
+        <ul id="habits-list">
+            <li>Habit 1 <button onclick="deleteHabit('habit1')">Delete</button></li>
+          </ul>
+          
+      </section>
+
+      <!-- TODOS -->
+      <section>
+        <h4>To-Dos</h4>
+        <input id="todo-input" placeholder="New to-do">
+        <button onclick="addTodo()">Add</button>
+        <ul id="todos-list">
+            <li>Todo 1 <button onclick="deleteTodo('todo1')">Delete</button></li>
+        </ul>
+
+      </section>
+
+      <!-- GROUPS -->
+      <section>
+        <h4>Groups</h4>
+        <input id="group-input" placeholder="Group name">
+        <button onclick="createGroup()">Create</button>
+        <h5>Your Groups</h5>
+        <ul id="groups-list"></ul>
+      </section>
+
+      <!-- INVITES -->
+      <section>
+        <h4>Invites</h4>
+        <input id="invite-to" placeholder="Invite username">
+        <select id="invite-type">
+          <option value="group">Group</option>
+          <option value="challenge">Challenge</option>
+        </select>
+        <input id="invite-name" placeholder="Group/Challenge name">
+        <button onclick="sendInvite()">Send</button>
+        <h5>Received</h5><ul id="invites-received"></ul>
+        <h5>Sent</h5><ul id="invites-sent"></ul>
+      </section>
+
+      <!-- CHALLENGES -->
+      <section>
+        <h4>Challenges</h4>
+        <input id="challenge-name" placeholder="Name">
+        <input id="challenge-days" type="number" placeholder="Days">
+        <button onclick="createChallenge()">Create</button>
+        <h5>Your Challenges</h5>
+        <ul id="challenges-list"></ul>
+      </section>
+
+      <!-- YOU -->
+      <section>
+        <h4>YOU</h4>
+        <div id="you-progress"></div>
+      </section>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

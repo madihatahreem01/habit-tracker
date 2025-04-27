@@ -1,0 +1,41 @@
+[
+  {
+    "username": "madiha",
+    "password": "madiha123",
+    "habits": [
+      "sleep"
+    ],
+    "habitCompletion": {
+      "2025-04-27": []
+    },
+    "todos": {
+      "2025-04-27": [
+        {
+          "text": "eat",
+          "done": false
+        },
+        {
+          "text": "hehehehe",
+          "done": false
+        }
+      ]
+    },
+    "groups": [
+      "haha"
+    ],
+    "challenges": [
+      "drink water"
+    ]
+  },
+  {
+    "username": "mad",
+    "password": "mad10",
+    "habits": [],
+    "habitCompletion": {},
+    "todos": {},
+    "groups": [
+      "angels"
+    ],
+    "challenges": []
+  }
+]
