@@ -1,0 +1,130 @@
+
+  .navbar {
+    display:flex;justify-content:space-between;
+    background:#4c6176;color:#f9f7f7;padding:10px 20px;
+  }
+  .navbar button {
+    background:#dfdcdc;color:#5c868b;border:none;padding:5px 10px;border-radius:4px;
+    cursor:pointer;
+  }
+  .main {
+    display:flex;
+    padding:20px;
+  }
+  #calendar {
+    width: 350px; margin-right:20px;
+    background:#bec3c3;border-radius:6px;box-shadow:0 2px 8px rgba(70, 124, 110, 0.1);
+    padding:10px;
+  }
+  .panels {
+    flex:1; display:grid;
+    grid-template-columns:1fr 1fr; gap:20px;
+  }
+  section {
+    background:#a9c4d2; border-radius:6px; padding:15px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.1);
+  }
+  section h4 { margin-top:0; }
+  section input, section select, section button {
+    width:100%; margin:5px 0; padding:6px;
+  }
+  section ul {
+    list-style:none; padding:0; max-height:120px; overflow:auto;
+  }
+  section li {
+    display:flex; align-items:center; margin:4px 0;
+  }
+  section li input[type=checkbox] {
+    margin-right:8px;
+  }
+  #you-progress p { margin:4px 0; }
+  
+ /* Ocean-Inspired Theme */
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: linear-gradient(135deg, #87b5c2, #56a0a6);
+    color: rgb(128, 90, 90);
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+header {
+    background: url('https://www.example.com/ocean-header.jpg') no-repeat center center/cover;
+    padding: 60px;
+    text-align: center;
+    color: rgb(118, 156, 176);
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0;
+    text-shadow: 3px 3px 5px rgba(82, 98, 111, 0.3);
+}
+
+button {
+    background-color: #3ea49d;
+    color: rgb(79, 94, 114);
+    border-radius: 8px;
+    padding: 12px 24px;
+    border: none;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #92b8d7;
+}
+
+input, textarea {
+    background: rgba(255, 255, 255, 0.1);
+    color: rgb(136, 104, 104);
+    border: 2px solid #1c8f87;
+    border-radius: 6px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.task-checkbox {
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+.card {
+    background: rgba(243, 240, 240, 0.2);
+    border-radius: 12px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.group-section {
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+.group-card {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px;
+}
+
+.delete-task, .leave-group-challenge {
+    background-color: #d16e64;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.delete-task:hover, .leave-group-challenge:hover {
+    background-color: #bf6a60;
+}
+ 

@@ -1,0 +1,13 @@
+{
+  "name": "habity",
+  "version": "2.0.0",
+  "description": "Full Habit Tracker with Groups, Challenges, Invites, Progress",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-session": "^1.17.3"
+  }
+}
